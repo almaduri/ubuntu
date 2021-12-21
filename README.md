@@ -4,8 +4,8 @@
 * [Clean Up Ubuntu](https://github.com/almaduri/ubuntu#clean-up-ubuntu)
 * [Gnome Shell Extensions](https://github.com/almaduri/ubuntu#gnome-shell-extensions)
 * [XAMPP](https://github.com/almaduri/ubuntu#xampp)
-* [Unmount Removable Media](https://github.com/almaduri/ubuntu#unmount-removable-media)
 * [Google Chrome](https://github.com/almaduri/ubuntu#google-chrome)
+* [Unmount Removable Media](https://github.com/almaduri/ubuntu#unmount-removable-media)
 
 ## Clean Up Ubuntu
 
