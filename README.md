@@ -5,6 +5,7 @@
 * [Gnome Shell Extensions](https://github.com/almaduri/ubuntu#gnome-shell-extensions)
 * [XAMPP](https://github.com/almaduri/ubuntu#xampp)
 * [Unmount Removable Media](https://github.com/almaduri/ubuntu#unmount-removable-media)
+* [Google Chrome](https://github.com/almaduri/ubuntu#google-chrome)
 
 ## Clean Up Ubuntu
 
@@ -87,6 +88,8 @@ sudo /opt/lampp/lampp stop
 ```BASH
 sudo /opt/lampp/manager-linux-x64.run
 ```
+
+## Google Chrome
 
 ```BASH
 google-chrome --profile-directory="Profile 1" --incognito --force-dark-mode
