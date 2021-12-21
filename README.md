@@ -83,3 +83,9 @@ sudo /opt/lampp/lampp stop
 ```BASH
 google-chrome --profile-directory="Profile 1" --incognito --force-dark-mode
 ```
+
+## Unmount Removable Media
+
+```BASH
+umount /dev/sdc1 && notify-send -u critical -i media-removable "Removable Media" "Successfully Unmounted"
+```
