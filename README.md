@@ -1,4 +1,4 @@
-# Ubuntu
+![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
 
 ```BASH
 sudo /opt/lampp/manager-linux-x64.run
@@ -87,5 +87,5 @@ google-chrome --profile-directory="Profile 1" --incognito --force-dark-mode
 ## Unmount Removable Media
 
 ```BASH
-umount /dev/sdc1 && notify-send -u critical -i media-removable "Removable Media" "Successfully Unmounted"
+sudo umount /dev/sdc1 && notify-send -u critical -i media-removable "Removable Media" "Successfully Unmounted"
 ```
