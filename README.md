@@ -1,8 +1,12 @@
-![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
+# Ubuntu
 
-```BASH
-sudo /opt/lampp/manager-linux-x64.run
-```
+## Index
+* [Clean Up Ubuntu](https://github.com/almaduri/ubuntu#clean-up-ubuntu)
+* [Gnome Shell Extensions](https://github.com/almaduri/ubuntu#gnome-shell-extensions)
+* [XAMPP](https://github.com/almaduri/ubuntu#xampp)
+* [Unmount Removable Media](https://github.com/almaduri/ubuntu#unmount-removable-media)
+
+## Clean Up Ubuntu
 
 ```BASH
 dpkg -l
@@ -18,10 +22,6 @@ sudo apt-get autoclean
 
 ```BASH
 df -h
-```
-
-```BASH
-sudo /opt/lampp/manager-linux-x64.run
 ```
 
 ```BASH
@@ -60,6 +60,8 @@ du -sh .cache/thumbnails/
 rm -rf .cache/thumbnails/*
 ```
 
+## Gnome Shell Extensions
+
 ```BASH
 sudo apt install gnome-shell-extension-no-annoyance
 ```
@@ -72,12 +74,18 @@ sudo apt install gnome-shell-extension-pixelsaver
 sudo apt install gnome-shell-extension-no-annoyance gnome-shell-extension-pixelsaver
 ```
 
+## XAMPP
+
 ```BASH
 sudo /opt/lampp/lampp start
 ```
 
 ```BASH
 sudo /opt/lampp/lampp stop
+```
+
+```BASH
+sudo /opt/lampp/manager-linux-x64.run
 ```
 
 ```BASH
