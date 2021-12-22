@@ -12,7 +12,8 @@
 * [Gnome Shell Extensions](https://github.com/almaduri/ubuntu#gnome-shell-extensions)
 * [XAMPP](https://github.com/almaduri/ubuntu#xampp)
 * [Custom Shortcuts](https://github.com/almaduri/ubuntu#custom-shortcuts)
-  * [Google Chrome](https://github.com/almaduri/ubuntu#google-chrome)
+  * [Firefox](https://github.com/almaduri/ubuntu#firefox)
+  * [Google Chrome & Force Dark Mode](https://github.com/almaduri/ubuntu#google-chrome)
 * [Unmount Removable Media](https://github.com/almaduri/ubuntu#unmount-removable-media)
 
 ## Clean Up Ubuntu
@@ -137,7 +138,7 @@ firefox
 firefox --private-window
 ```
 
-### Google Chrome
+### Google Chrome & Force Dark Mode
 
 ```BASH
 google-chrome --profile-directory="Default" --force-dark-mode
@@ -158,4 +159,3 @@ google-chrome --profile-directory="Profile 1" --incognito --force-dark-mode
 ```BASH
 sudo umount /dev/sdc1 && notify-send -u critical -i media-removable "Removable Media" "Successfully Unmounted"
 ```
-
