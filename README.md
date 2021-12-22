@@ -2,6 +2,7 @@
 
 ## Index
 * [Clean Up Ubuntu](https://github.com/almaduri/ubuntu#clean-up-ubuntu)
+  * [Syslog](https://github.com/almaduri/ubuntu#syslog)
 * [Gnome Shell Extensions](https://github.com/almaduri/ubuntu#gnome-shell-extensions)
 * [XAMPP](https://github.com/almaduri/ubuntu#xampp)
 * [Google Chrome](https://github.com/almaduri/ubuntu#google-chrome)
@@ -46,7 +47,7 @@ sudo journalctl --rotate
 ```
 
 ```BASH
-sudo journalctl --vacuum-size=100M
+sudo journalctl --vacuum-size=10M
 ```
 
 ```BASH
@@ -55,6 +56,20 @@ du -sh /var/lib/snapd/snaps
 
 ```BASH
 du -sh .cache/thumbnails/
+```
+
+### Syslog
+
+```BASH
+echo "" > /var/log/kern.log
+```
+
+```BASH
+echo "" > /var/log/syslog
+```
+
+```BASH
+service syslog restart
 ```
 
 ```BASH
@@ -100,3 +115,4 @@ google-chrome --profile-directory="Profile 1" --incognito --force-dark-mode
 ```BASH
 sudo umount /dev/sdc1 && notify-send -u critical -i media-removable "Removable Media" "Successfully Unmounted"
 ```
+
