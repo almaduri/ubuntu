@@ -125,7 +125,29 @@ sudo /opt/lampp/manager-linux-x64.run
 
 ## Custom Shortcuts
 
+### Firefox
+
+```BASH
+firefox
+```
+
+#### Firefox Private
+
+```BASH
+firefox --private-window
+```
+
 ### Google Chrome
+
+```BASH
+google-chrome --profile-directory="Default" --force-dark-mode
+```
+
+#### Google Chrome Incognito & Force Dark Mode
+
+```BASH
+google-chrome --profile-directory="Default" --incognito --force-dark-mode
+```
 
 ```BASH
 google-chrome --profile-directory="Profile 1" --incognito --force-dark-mode
