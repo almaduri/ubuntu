@@ -2,6 +2,8 @@
 
 ## Index
 * [Clean Up Ubuntu](https://github.com/almaduri/ubuntu#clean-up-ubuntu)
+  * [Disk Free](https://github.com/almaduri/ubuntu#disk-free)
+  * [Package](https://github.com/almaduri/ubuntu#package)
   * [Journal](https://github.com/almaduri/ubuntu#journal)
   * [Syslog](https://github.com/almaduri/ubuntu#syslog)
 * [Gnome Shell Extensions](https://github.com/almaduri/ubuntu#gnome-shell-extensions)
@@ -10,6 +12,14 @@
 * [Unmount Removable Media](https://github.com/almaduri/ubuntu#unmount-removable-media)
 
 ## Clean Up Ubuntu
+
+### Disk Free
+
+```BASH
+df -h
+```
+
+### Package
 
 ```BASH
 dpkg -l
@@ -21,10 +31,6 @@ sudo apt-get autoremove
 
 ```BASH
 sudo apt-get autoclean
-```
-
-```BASH
-df -h
 ```
 
 ```BASH
