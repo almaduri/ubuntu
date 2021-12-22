@@ -2,6 +2,7 @@
 
 ## Index
 * [Clean Up Ubuntu](https://github.com/almaduri/ubuntu#clean-up-ubuntu)
+  * [Journal](https://github.com/almaduri/ubuntu#journal)
   * [Syslog](https://github.com/almaduri/ubuntu#syslog)
 * [Gnome Shell Extensions](https://github.com/almaduri/ubuntu#gnome-shell-extensions)
 * [XAMPP](https://github.com/almaduri/ubuntu#xampp)
@@ -38,6 +39,8 @@ sudo du -sh /var/cache/apt/
 sudo apt-get clean
 ```
 
+### Journal
+
 ```BASH
 sudo journalctl --disk-usage
 ```
@@ -58,6 +61,10 @@ du -sh /var/lib/snapd/snaps
 du -sh .cache/thumbnails/
 ```
 
+```BASH
+rm -rf .cache/thumbnails/*
+```
+
 ### Syslog
 
 ```BASH
@@ -70,10 +77,6 @@ echo "" > /var/log/syslog
 
 ```BASH
 service syslog restart
-```
-
-```BASH
-rm -rf .cache/thumbnails/*
 ```
 
 ## Gnome Shell Extensions
