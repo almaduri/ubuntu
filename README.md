@@ -11,7 +11,8 @@
   * [Syslog](https://github.com/almaduri/ubuntu#syslog)
 * [Gnome Shell Extensions](https://github.com/almaduri/ubuntu#gnome-shell-extensions)
 * [XAMPP](https://github.com/almaduri/ubuntu#xampp)
-* [Google Chrome](https://github.com/almaduri/ubuntu#google-chrome)
+* [Custom Shortcuts](https://github.com/almaduri/ubuntu#custom-shortcuts)
+  * [Google Chrome](https://github.com/almaduri/ubuntu#google-chrome)
 * [Unmount Removable Media](https://github.com/almaduri/ubuntu#unmount-removable-media)
 
 ## Clean Up Ubuntu
@@ -122,7 +123,9 @@ sudo /opt/lampp/lampp stop
 sudo /opt/lampp/manager-linux-x64.run
 ```
 
-## Google Chrome
+## Custom Shortcuts
+
+### Google Chrome
 
 ```BASH
 google-chrome --profile-directory="Profile 1" --incognito --force-dark-mode
