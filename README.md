@@ -4,6 +4,7 @@
 * [Clean Up Ubuntu](https://github.com/almaduri/ubuntu#clean-up-ubuntu)
   * [Disk Free](https://github.com/almaduri/ubuntu#disk-free)
   * [Package](https://github.com/almaduri/ubuntu#package)
+  * [Cache](https://github.com/almaduri/ubuntu#cache)
   * [Journal](https://github.com/almaduri/ubuntu#journal)
   * [Syslog](https://github.com/almaduri/ubuntu#syslog)
 * [Gnome Shell Extensions](https://github.com/almaduri/ubuntu#gnome-shell-extensions)
@@ -36,6 +37,8 @@ sudo apt-get autoclean
 ```BASH
 sudo du -sh /usr/share/applications
 ```
+
+### Cache
 
 ```BASH
 sudo du -sh /var/cache/apt/
