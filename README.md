@@ -107,7 +107,11 @@ sudo apt install gnome-shell-extension-pixelsaver
 ```
 
 ```BASH
-sudo apt install gnome-shell-extension-no-annoyance gnome-shell-extension-pixelsaver
+sudo apt install gnome-shell-extension-dash-to-panel
+```
+
+```BASH
+sudo apt install gnome-shell-extension-no-annoyance gnome-shell-extension-pixelsaver gnome-shell-extension-dash-to-panel
 ```
 
 ## XAMPP
