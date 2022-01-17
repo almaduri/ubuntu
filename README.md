@@ -14,6 +14,7 @@
 * [Custom Shortcuts](https://github.com/almaduri/ubuntu#custom-shortcuts)
   * [Firefox](https://github.com/almaduri/ubuntu#firefox)
   * [Google Chrome & Force Dark Mode](https://github.com/almaduri/ubuntu#google-chrome)
+* [rsync](https://github.com/almaduri/ubuntu#rsync)
 * [Unmount Removable Media](https://github.com/almaduri/ubuntu#unmount-removable-media)
 
 ## Clean Up Ubuntu
@@ -161,7 +162,7 @@ google-chrome --profile-directory="Profile 1" --incognito --force-dark-mode
 ## rsync
 
 ```BASH
-rsync -av --info=progress2  /media/ali/Al_Maduri && notify-send -u critical -i media-removable "Removable Media" "Copied Files"
+rsync -av --info=progress2  /media/ali/Al_Maduri && notify-send -u critical -i media-removable "Copy Complete" "Files Copied"
 ```
 
 ## Unmount Removable Media
