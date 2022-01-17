@@ -15,8 +15,6 @@
   * [Firefox](https://github.com/almaduri/ubuntu#firefox)
   * [Google Chrome & Force Dark Mode](https://github.com/almaduri/ubuntu#google-chrome)
 * [rsync](https://github.com/almaduri/ubuntu#rsync)
-  * [rsync basic](https://github.com/almaduri/ubuntu#rsync-basic)
-  * [rsync with notify-send](https://github.com/almaduri/ubuntu#rsync-with-notify-send)
 * [Unmount Removable Media](https://github.com/almaduri/ubuntu#unmount-removable-media)
 
 ## Clean Up Ubuntu
@@ -162,14 +160,6 @@ google-chrome --profile-directory="Profile 1" --incognito --force-dark-mode
 ```
 
 ## rsync
-
-### rsync basic
-
-```BASH
-rsync [optional modifiers] [SRC] [DEST]
-```
-
-### rsync with notify-send
 
 ```BASH
 rsync -av --info=progress2  /media/ali/Al_Maduri && notify-send -u critical -i media-removable "Copy Complete" "Files Copied"
