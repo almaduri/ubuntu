@@ -158,6 +158,12 @@ google-chrome --profile-directory="Default" --incognito --force-dark-mode
 google-chrome --profile-directory="Profile 1" --incognito --force-dark-mode
 ```
 
+## rsync
+
+```BASH
+rsync -av --info=progress2  /media/ali/Al_Maduri && notify-send -u critical -i media-removable "Removable Media" "Copied Files"
+```
+
 ## Unmount Removable Media
 
 ```BASH
