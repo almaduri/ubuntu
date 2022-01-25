@@ -40,7 +40,7 @@ zstyle ':completion:*:*:kill:*:processes' list-colors '=(#b) #([0-9]#)*=0=01;31'
 zstyle ':completion:*:kill:*' command 'ps -u $USER -o pid,%cpu,tty,cputime,cmd'
 
 # Oh My Posh
-eval "$(oh-my-posh --init --shell zsh --config ~/clean-detailed.omp.json)"
+eval "$(oh-my-posh --init --shell zsh --config ~/maduri.omp.json)"
 
 # Aliases
 alias ar="sudo apt-get autoremove && sudo apt-get autoclean"
