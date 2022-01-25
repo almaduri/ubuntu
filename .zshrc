@@ -61,6 +61,7 @@ bindkey '^[[1;5D' backward-word
 bindkey '^[[1;5C' forward-word
 bindkey '^U' backward-kill-line
 
+# Run app in background
 function b() {
   ($@ &)
 }
