@@ -47,8 +47,8 @@ alias .2="cd ../.."
 alias .3="cd ../../../"ls
 alias .4="cd ../../../../"
 alias .5="cd ../../../../../"
-alias c="clear"
-alias co="code ."
+alias cl="clear"
+# alias co="code ."
 alias cwd="pwd | clip"
 alias ga="git add ."
 alias gc="git commit -m"
@@ -56,25 +56,36 @@ alias gl="git log"
 alias gp="git push"
 alias gs="git status"
 
-# Lds Aliases
-alias ls="lsd --color=always"
-alias l="ls -l"
-alias la="ls -a"
-alias ll="ls -la"
-alias lt="ls --tree"
+# LSDeluxe Aliases
+# alias ls="lsd --color=always"
+alias l="lsd -l --color=never"
+alias la="lsd -A1 --color=never --blocks=permission,name"
+alias ll="lsd -lA --color=never"
+alias lt="lsd --tree --color=never"
 
 # Show only hidden files
 lh() {
-  ls -ld .?*
+  lsd -ld .* --color=never
+}
+
+# Open in VS Code
+function c() {
+  if [ $# -eq 0 ];
+  then
+    code .
+  else
+    code $1
+  fi
 }
 
 # Open directory using file explorer
-function ex() {
-  if [ $# -eq 0 ]
+function e() {
+  if [ $# -eq 0 ];
   then
-    explorer.exe .
+    start .
   else
-    explorer.exe "$1"
+    directory="$1"
+    start "${directory//\//"\\\\"}"
   fi
 }
 
