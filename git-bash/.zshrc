@@ -89,6 +89,10 @@ function e() {
   fi
 }
 
+function cprc() {
+  cp ~/.zshrc /d/codes/ubuntu/git-bash
+}
+
 # Keybindings
 bindkey '^[[1;5D' backward-word
 bindkey '^[[1;5C' forward-word
