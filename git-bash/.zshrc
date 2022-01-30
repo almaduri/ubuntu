@@ -57,7 +57,7 @@ alias gs="git status"
 
 # LSDeluxe Aliases
 # alias ls="lsd --color=always"
-alias l="lsd -l --color=never"
+alias l="lsd -l --color=never --blocks=permission,name"
 alias la="lsd -A1 --color=never --blocks=permission,name"
 alias ll="lsd -lA --color=never"
 alias lt="lsd --tree --color=never"
