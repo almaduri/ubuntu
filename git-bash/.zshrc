@@ -44,11 +44,10 @@ eval "$(oh-my-posh --init --shell zsh --config ~/maduri.omp.json)"
 # Aliases
 alias .1="cd .."
 alias .2="cd ../.."
-alias .3="cd ../../../"ls
+alias .3="cd ../../../"
 alias .4="cd ../../../../"
 alias .5="cd ../../../../../"
 alias cl="clear"
-# alias co="code ."
 alias cwd="pwd | clip"
 alias ga="git add ."
 alias gc="git commit -m"
