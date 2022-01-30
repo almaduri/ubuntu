@@ -64,7 +64,7 @@ alias lt="lsd --tree --color=never"
 
 # Show only hidden files
 lh() {
-  lsd -ld .* --color=never
+  lsd -ld .* --blocks=permission,name --color=never
 }
 
 # Open in VS Code
