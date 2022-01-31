@@ -56,46 +56,17 @@ alias gp="git push"
 alias gs="git status"
 
 # LSDeluxe Aliases
-# alias ls="lsd --color=always"
-alias l="lsd -l --color=never --blocks=permission,name"
-alias la="lsd -A1 --color=never --blocks=permission,name"
-alias ld="lsd -ld */ --color=never --blocks=permission,name"
-alias ll="lsd -lA --color=never"
-alias lt="lsd --tree --color=never"
-
-# Show only hidden files
-lh() {
-  lsd -ld .* --blocks=permission,name --color=never
-}
-
-# Open in VS Code
-function c() {
-  if [ $# -eq 0 ];
-  then
-    code .
-  else
-    code $1
-  fi
-}
-
-# Open directory using file explorer
-function e() {
-  if [ $# -eq 0 ];
-  then
-    start .
-  else
-    directory="$1"
-    start "${directory//\//"\\\\"}"
-  fi
-}
-
-function cprc() {
-  cp ~/.zshrc /d/codes/ubuntu/git-bash
-}
+# alias l="unset TERM; lsd -l --color=always --blocks=permission,name; export TERM=xterm-256color"
+# alias la="unset TERM; lsd -A1 --color=always --blocks=permission,name; export TERM=xterm-256color"
+# alias ld="unset TERM; lsd -ld */ --color=always --blocks=permission,name; export TERM=xterm-256color"
+# alias ll="unset TERM; lsd -lA --color=always; export TERM=xterm-256color"
+# alias lt="unset TERM; lsd --tree --color=always; export TERM=xterm-256color"
 
 # Keybindings
 bindkey '^[[1;5D' backward-word
 bindkey '^[[1;5C' forward-word
 bindkey '^U' backward-kill-line
 
+source ~/.lsd-functions.zsh
+source ~/.custom-functions.zsh
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
