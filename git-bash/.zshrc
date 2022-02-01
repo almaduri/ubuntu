@@ -43,7 +43,7 @@ eval "$(oh-my-posh --init --shell zsh --config ~/maduri.omp.json)"
 
 # Aliases
 alias .1="cd .."
-alias .2="cd ../.."
+alias .2="cd ../../"
 alias .3="cd ../../../"
 alias .4="cd ../../../../"
 alias .5="cd ../../../../../"
@@ -66,6 +66,7 @@ alias gs="git status"
 bindkey '^[[1;5D' backward-word
 bindkey '^[[1;5C' forward-word
 bindkey '^U' backward-kill-line
+bindkey '^[[3~' delete-char
 
 source ~/.lsd-functions.zsh
 source ~/.custom-functions.zsh
