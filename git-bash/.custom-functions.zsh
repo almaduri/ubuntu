@@ -3,10 +3,8 @@ function c() {
   if [ $# -eq 0 ];
   then
     code .
-    echo "yes"
   else
     code $1
-    echo "code"
   fi
 }
 
