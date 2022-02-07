@@ -11,7 +11,6 @@ alias gc="git commit -m"
 alias gl="git log"
 alias gp="git push"
 alias gs="git status"
-# alias node="winpty node"
 
 # LSDeluxe Aliases
 alias l="winpty lsd -l --color=always --icon=always --blocks=permission,name"
