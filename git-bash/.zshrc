@@ -48,5 +48,5 @@ bindkey '^U' backward-kill-line
 bindkey '^[[3~' delete-char
 
 source ~/.aliases
-source ~/.custom-functions.zsh
+source ~/.custom-functions
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
