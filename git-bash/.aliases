@@ -25,3 +25,7 @@ alias ll="winpty lsd -lA --color=always --icon=always"
 alias llw="lsd -lA --color=always --icon=always"
 alias lt="winpty lsd --tree --color=always --icon=always"
 alias ltw="lsd --tree --color=always --icon=always"
+
+#NPM Aliases
+alias nr="npm run"
+alias nrs="npm run start"
