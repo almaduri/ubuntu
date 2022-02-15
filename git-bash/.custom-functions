@@ -23,3 +23,13 @@ function e() {
 function cprc() {
   cp ~/.zshrc /d/codes/ubuntu/git-bash
 }
+
+# Copy .aliases
+function cpal() {
+  cp ~/.aliases /d/codes/ubuntu/git-bash
+}
+
+# Copy .custom-functions
+function cpcf() {
+  cp ~/.custom-functions /d/codes/ubuntu/git-bash
+}
