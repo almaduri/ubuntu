@@ -29,4 +29,5 @@ alias ltw="lsd --tree --color=always --icon=always"
 #NPM Aliases
 alias nr="npm run"
 alias ni="npm i"
+alias nu="npm uninstall"
 alias nrs="npm run start"
