@@ -1,10 +1,11 @@
 # Set up the prompt
+
 autoload -Uz promptinit
 promptinit
 prompt adam1
 
-#setopt histignorealldups sharehistory
-#setopt SHARE_HISTORY
+# setopt histignorealldups sharehistory
+# setopt SHARE_HISTORY
 
 setopt appendhistory
 setopt INC_APPEND_HISTORY
@@ -41,23 +42,6 @@ zstyle ':completion:*:kill:*' command 'ps -u $USER -o pid,%cpu,tty,cputime,cmd'
 
 # Oh My Posh
 eval "$(oh-my-posh --init --shell zsh --config ~/maduri.omp.json)"
-
-# Aliases
-alias ar="sudo apt-get autoremove && sudo apt-get autoclean"
-alias c="clear"
-alias co="code ."
-alias cpwd="pwd | xclip -selection clipboard"
-alias ga="git add ."
-alias gc="git commit -m"
-alias gp="git push"
-alias gs="git status"
-alias ll="ls -la"
-alias r="ranger"
-alias sd="shutdown now"
-alias up="sudo apt-get update && sudo apt-get upgrade"
-alias xd="xdg-open"
-alias xdd="xdg-open ."
-alias xs="xset dpms force off"
 
 # Keybindings
 bindkey '^[[1;5D' backward-word
