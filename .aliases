@@ -20,3 +20,11 @@ alias up="sudo apt-get update && sudo apt-get upgrade"
 alias xd="xdg-open"
 alias xdd="xdg-open ."
 alias xs="xset dpms force off"
+
+#NPM Aliases
+alias nr="npm run"
+alias ni="npm i"
+alias nu="npm uninstall"
+alias nrs="npm run start"
+alias nsd="npm run start-dev"
+alias nsp="npm run start-prod"
