@@ -17,8 +17,6 @@ alias ll="ls -la"
 alias r="ranger"
 alias sd="shutdown now"
 alias up="sudo apt-get update && sudo apt-get upgrade"
-alias xd="xdg-open"
-alias xdd="xdg-open ."
 alias xs="xset dpms force off"
 
 #NPM Aliases
