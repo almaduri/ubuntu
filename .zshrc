@@ -9,6 +9,7 @@ prompt adam1
 
 setopt appendhistory
 setopt INC_APPEND_HISTORY
+setopt HIST_IGNORE_SPACE
 
 # Use emacs keybindings even if our EDITOR is set to vi
 bindkey -e
