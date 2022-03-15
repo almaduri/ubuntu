@@ -22,3 +22,7 @@ function xd() {
     xdg-open $1
   fi
 }
+
+function mac() {
+  b google-chrome --profile-directory="Default" --incognito --force-dark-mode https://almaduri.github.io/mac-address-fetch/ && b google-chrome --profile-directory="Default" --incognito --force-dark-mode http://192.168.100.1/ && exit
+}
