@@ -17,7 +17,7 @@ alias ll="ls -la"
 alias r="ranger"
 alias sd="shutdown now"
 alias up="sudo apt-get update && sudo apt-get upgrade"
-alias xs="xset dpms force off"
+alias xs="xset dpms force off && exit"
 
 #NPM Aliases
 alias nr="npm run"
