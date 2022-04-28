@@ -1,35 +1,35 @@
 # Open in VS Code
 function c() {
-  if [ $# -eq 0 ];
-  then
-    code .
-  else
-    code $1
-  fi
+    if [ $# -eq 0 ];
+    then
+        code .
+    else
+        code $1
+    fi
 }
 
 # Open directory using file explorer
 function e() {
-  if [ $# -eq 0 ];
-  then
-    start .
-  else
-    directory="$1"
-    start "${directory//\//"\\\\"}"
-  fi
+    if [ $# -eq 0 ];
+    then
+        start .
+    else
+        directory="$1"
+        start "${directory//\//"\\\\"}"
+    fi
 }
 
 # Copy .zshrc
 function cprc() {
-  cp ~/.zshrc /d/codes/ubuntu/git-bash
+    cp ~/.zshrc /d/codes/ubuntu/git-bash
 }
 
 # Copy .aliases
 function cpal() {
-  cp ~/.aliases /d/codes/ubuntu/git-bash
+    cp ~/.aliases /d/codes/ubuntu/git-bash
 }
 
 # Copy .custom-functions
 function cpcf() {
-  cp ~/.custom-functions /d/codes/ubuntu/git-bash
+    cp ~/.custom-functions /d/codes/ubuntu/git-bash
 }
