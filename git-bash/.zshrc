@@ -1,3 +1,4 @@
+# Set up the prompt
 autoload -Uz promptinit
 promptinit
 prompt adam1
@@ -7,6 +8,7 @@ prompt adam1
 
 setopt appendhistory
 setopt INC_APPEND_HISTORY
+setopt HIST_IGNORE_SPACE
 
 # Use emacs keybindings even if our EDITOR is set to vi
 bindkey -e
@@ -49,4 +51,6 @@ bindkey '^[[3~' delete-char
 
 source ~/.aliases
 source ~/.custom-functions
+
+# fzf
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
