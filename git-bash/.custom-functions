@@ -19,6 +19,15 @@ function e() {
     fi
 }
 
+# MAC Address
+function mac() {
+    (chrome --incognito http://192.168.100.1/ https://almaduri.github.io/mac-address-fetch/ &) && exit 
+}
+
+function chmr() {
+    (chrome --incognito https://www.youtube.com/c/ZealWinters/videos https://www.youtube.com/channel/UCqDKLll2YLA7hM8wIRLB6MA/videos &) && exit 
+}
+
 # Copy .zshrc
 function cprc() {
     cp ~/.zshrc /d/codes/ubuntu/git-bash
