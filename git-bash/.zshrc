@@ -3,9 +3,10 @@ autoload -Uz promptinit
 promptinit
 prompt adam1
 
-#setopt histignorealldups sharehistory
+#setopt sharehistory
 #setopt SHARE_HISTORY
 
+setopt histignorealldups
 setopt appendhistory
 setopt INC_APPEND_HISTORY
 setopt HIST_IGNORE_SPACE
@@ -52,5 +53,4 @@ bindkey '^[[3~' delete-char
 source ~/.aliases
 source ~/.custom-functions
 
-# fzf
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
