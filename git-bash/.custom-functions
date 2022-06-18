@@ -33,6 +33,11 @@ function cprc() {
     cp ~/.zshrc /d/codes/ubuntu/git-bash
 }
 
+# Copy current working directory to clipboard
+function cwd() {
+    echo -n $(pwd) | clip
+}
+
 # Copy .aliases
 function cpal() {
     cp ~/.aliases /d/codes/ubuntu/git-bash
@@ -42,3 +47,4 @@ function cpal() {
 function cpcf() {
     cp ~/.custom-functions /d/codes/ubuntu/git-bash
 }
+
