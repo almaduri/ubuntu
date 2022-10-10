@@ -9,7 +9,7 @@ function c() {
 }
 
 # Open directory using file explorer
-function e() {
+function ex() {
     if [ $# -eq 0 ];
     then
         start .
@@ -47,4 +47,3 @@ function cpal() {
 function cpcf() {
     cp ~/.custom-functions /d/codes/ubuntu/git-bash
 }
-
