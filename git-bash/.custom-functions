@@ -49,3 +49,8 @@ function vlcc() {
 
     (vlc "file:///D:/Downloads/${file}" &)
 }
+
+# Export entertainment db
+function exen() {
+    mysqldump -u root entertainment > /d/codes/msc/databases/import.sql && python /d/codes/python-mundane-scripts/export-entertainment-db.py
+}
