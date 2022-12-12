@@ -47,3 +47,10 @@ function cpal() {
 function cpcf() {
     cp ~/.custom-functions /d/codes/ubuntu/git-bash
 }
+
+# Open video in VLC using grep
+function vlcc() {
+    file=$(ls /d/Downloads | grep -i "$1")
+
+    (vlc "file:///D:/Downloads/${file}" &)
+}
